@@ -1,0 +1,29 @@
+{
+  "baseline": {
+    "accuracy": 0.25,
+    "abstention_rate": 0.1,
+    "brier_mean": 0.6870944444444445,
+    "brier_std": 0.4026632429106958,
+    "ece": 0.7077777777777777,
+    "penalty_mean": 0.4514999999999999,
+    "penalty_hit_rate": 0.675,
+    "n_answered": 36
+  },
+  "sanction": {
+    "accuracy": 0.15625,
+    "abstention_rate": 0.15,
+    "brier_mean": 0.721375,
+    "brier_std": 0.3362856904850398,
+    "ece": 0.765625,
+    "penalty_mean": 0.4290999999999999,
+    "penalty_hit_rate": 0.675,
+    "n_answered": 32
+  },
+  "brier_wilcoxon_stat": 183.5,
+  "brier_wilcoxon_p": 0.46193645244876835,
+  "accuracy_diff_bootstrap": {
+    "mean": -0.0012965517241379314,
+    "ci_lower": -0.13793103448275862,
+    "ci_upper": 0.13793103448275862
+  }
+}

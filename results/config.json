@@ -1,0 +1,8 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "sample_path": "data/truthfulqa_mc1_sample.json",
+  "audit_rate": 0.35,
+  "penalty_threshold": 0.7,
+  "max_new_tokens": 200,
+  "seed": 42
+}
