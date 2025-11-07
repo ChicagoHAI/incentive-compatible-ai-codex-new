@@ -1,0 +1,46 @@
+idea:
+  title: 'Incentive-Compatible Societies: Formal Environment Design for Truthful Meta-Knowledge'
+  domain: artificial_intelligence
+  hypothesis: 'Formal environment engineering of communication protocols, sanction
+    mechanisms, and audit hooks can render truthful uncertainty reports subgame-perfect
+    in multi-agent systems, ensuring agents accrue long-run penalties for misleading
+    teammates and enabling principled mechanism design for truthful meta-knowledge
+    in high-stakes domains.
+
+    '
+  background:
+    description: "The core claim of Eisenstein et al. is that incentive structure\
+      \ yields meta-knowledge. We push this further by applying formal environment\
+      \ engineering (Gardelli et al., 2006) to specify communication protocols, sanction\
+      \ mechanisms, and audit hooks that render truthful uncertainty reports subgame-perfect.\
+      \ Agents accrue long-run penalties for misleading teammates (e.g., claiming\
+      \ confidence without evidence), enforced via periodic ex-post audits or sampled\
+      \ tool cross-checks. This differs from purely empirical self-play by proving\
+      \ incentive properties of the interaction. Combining Predictive Safety Networks\
+      \ (Guo & B\xFCrger, 2019) adds safety constraints (e.g., mandatory abstention\
+      \ zones), yielding guarantees about safe tool use. The significance is principled\
+      \ mechanism design for multi-agent epistemics, applicable to high-stakes domains\
+      \ surveyed in agentic LLMs (Plaat et al., 2025).\n"
+    papers:
+    - description: '"Don''t lie to your friends: Learning what you know from collaborative
+        self-play." Jacob Eisenstein, Reza Aghajani, Adam Fisch, Dheeru Dua, Fantine
+        Huot, Mirella Lapata, Vicky Zayats, Jonathan Berant (2025). arXiv.org.'
+    - description: '"Agentic Large Language Models, a survey." A. Plaat, M. V. Duijn,
+        N. V. Stein, Mike Preuss, P. V. D. Putten, K. Batenburg (2025). arXiv.org.'
+    - description: "\"Predictive Safety Network for Resource-constrained Multi-agent\
+        \ Systems.\" Meng Guo, Mathias B\xFCrger (2019). Conference on Robot Learning."
+    - description: '"On the Role of Formal Analysis Tools for Engineering the Environment
+        of Self-Organising Multi-Agent Systems." Luca Gardelli, Mirko Viroli, Matteo
+        Casadei (2006).'
+  constraints:
+    compute: cpu_only
+    time_limit: 3600
+    budget: 100
+  metadata:
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/PGZsluwLVAGNdsVViQKS
+    idea_id: incentive_compatible_societies_20251107_161318_e9746452
+    created_at: '2025-11-07T16:13:18.144357'
+    status: submitted
+    github_repo_name: incentive-compatible-ai-62ea
+    github_repo_url: https://github.com/ChicagoHAI/incentive-compatible-ai-62ea
